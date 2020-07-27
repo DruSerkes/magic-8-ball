@@ -1,6 +1,9 @@
 # Magic 8-Ball 
 
-Ask a question, click the magic 8-ball, and recieve an answer! 
+Ask a question, click the magic 8-ball, and recieve an answer!  
+
+---
+
 Link: [Magic 8-Ball](https://druserkes.github.io/magic-8-ball/)
 
 ### App
