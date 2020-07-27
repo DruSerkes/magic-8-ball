@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './EightBall.css';
 
 const EightBall = ({ answers }) => {
 	const randomAnswer = () => {
@@ -15,9 +16,13 @@ const EightBall = ({ answers }) => {
 	const [ color, setColor ] = useState('black');
 
 	return (
+        <>
+        <h1>Magic 8-Ball</h1>
 		<div className="EightBall" style={{ backgroundColor: color }} onClick={getAnswer}>
 			<p className="EightBallText">{message}</p>
 		</div>
+        <p>Click the ball to recieve your answer</p>
+        </>
 	);
 };
 
