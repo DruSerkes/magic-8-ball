@@ -1,0 +1,32 @@
+@keyframes pulse {
+  25% {
+    font-size: 1.2rem;
+  }
+  50% {
+    font-size: 1rem;
+  }
+  75% {
+    font-size: 1.2rem;
+  }
+  100% {
+    font-size: 1rem;
+  }
+}
+
+.Footer {
+  font-family: "avenir light";
+  text-align: center;
+  text-shadow: transparent;
+  margin-top: 1.5rem;
+}
+
+.Footer-Text {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.Footer-Text:hover {
+  color: #89cfef;
+  text-decoration: none;
+  animation: pulse 1s forwards;
+}
